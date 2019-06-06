@@ -1,9 +1,17 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import Employee from './pages/Employee'
+import Home from './pages/Home'
+import Input from './pages/Input'
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return (
+      <>
+        <Employee />
+        <Home />
+        <Input />
+      </>
+    )
   }
 }
 
