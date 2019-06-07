@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react'
-import Axios from 'axios'
+//import Axios from 'axios'
 
 const API_URL =
   'https://sdg-staff-directory-app.herokuapp.com/api/murktech/employees'
 
 export default function EmployeeInput() {
-  const submitEmployee = () => {}
+  //const submitEmployee = () => {}
 
   return (
     <>
